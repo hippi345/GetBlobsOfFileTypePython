@@ -13,7 +13,7 @@ distro==1.9.0
 dnspython==2.6.1
 -e git+https://github.com/hippi345/GetBlobsOfFileTypePython@5286c3ef1b519e4a6ef6e8ecd0146973f419e5be#egg=get_blobs_of_file_type
 httplib2==0.20.4
-idna==3.13
+idna==3.20
 iniconfig==2.3.0
 isodate==0.7.2
 Jinja2==3.1.2
