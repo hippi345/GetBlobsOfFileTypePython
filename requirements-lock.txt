@@ -23,7 +23,7 @@ lazr.restfulclient==0.14.6
 lazr.uri==1.0.6
 MarkupSafe==2.1.5
 netaddr==0.8.0
-numpy==2.4.4
+numpy==2.5.3
 oauthlib==3.2.2
 packaging==24.0
 pluggy==1.6.0
