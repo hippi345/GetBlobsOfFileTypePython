@@ -17,7 +17,7 @@ idna==3.13
 iniconfig==2.3.0
 isodate==0.7.2
 Jinja2==3.1.2
-jwcrypto==1.5.7
+jwcrypto==1.6.1
 launchpadlib==1.11.0
 lazr.restfulclient==0.14.6
 lazr.uri==1.0.6
