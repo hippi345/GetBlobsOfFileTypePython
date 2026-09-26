@@ -21,7 +21,7 @@ jwcrypto==1.5.7
 launchpadlib==1.11.0
 lazr.restfulclient==0.14.6
 lazr.uri==1.0.6
-MarkupSafe==2.1.5
+MarkupSafe==3.0.3
 netaddr==0.8.0
 numpy==2.4.4
 oauthlib==3.2.2
