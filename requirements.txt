@@ -1,0 +1,3 @@
+# Runtime dependencies (see pyproject.toml for authoritative versions).
+# Install with: pip install -r requirements.txt
+azure-storage-blob>=12.24.0,<13
