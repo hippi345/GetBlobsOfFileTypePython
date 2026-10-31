@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Protocol
 
-from azure.storage.blob import BlobServiceClient
+from azure.storage.blob import BlobServiceClient, ContainerClient
 
 
 @dataclass(frozen=True)
@@ -31,7 +31,7 @@ class ScanResult:
 class BlobServiceLike(Protocol):
     """Subset of BlobServiceClient used by the scanner (for testing)."""
 
-    def get_container_client(self, container: str): ...
+    def get_container_client(self, container: str) -> ContainerClient: ...
 
 
 def create_blob_service_client(account_name: str, account_key: str) -> BlobServiceClient:
